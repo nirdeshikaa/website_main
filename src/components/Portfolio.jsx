@@ -7,39 +7,27 @@ const Portfolio = () => {
       className="w-full h-full sm:h-screen bg-gradient-to-b from-red-700 via-pink-600 to-pink-300"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
-        <div className="pb-2 pt-32 ">
+        <div className="pb-2 pt-28 ">
           <p className="text-4xl font-bold inline border-b-4 text-black border-black">
             Portfolio
           </p>
         </div>
         <p className="text-xl mt-20">
-          Welcome to my portfolio! Throughout my academic journey, I have had
-          the opportunity to work on diverse projects that have allowed me to
-          apply theoretical concepts to real-world problems.
+        Welcome to my world! Throughout my academic journey, I've engaged in various projects that have allowed me to apply theoretical knowledge to practical settings. 
         </p>
         <br />
-        <p className="text-xl">
-          Throughout my academic journey, I've had the opportunity to work on
-          exciting projects that have allowed me to apply theoretical concepts
-          to real-world scenarios. Some notable projects include:
-        </p>
         <ul className="list-disc pl-8 text-xl mt-4">
           <li>
-            <strong>Smart Yatayat:</strong> Contributed to the development of an
-            innovative transportation management system aimed at optimizing
-            routes and enhancing passenger experience.
+            <strong>Sustainable Energy Initiative:</strong> Spearheaded a project focused on developing renewable energy solutions for rural communities.
           </li>
           <br />
           <li>
-            <strong>Hospital Management System:</strong> Played a key role in
-            designing and implementing a robust system to streamline operations
-            and improve efficiency within a healthcare setting.
+            <strong>Data Analytics Project:</strong> Collaborated with a team to analyze large datasets from a marketing campaign, utilizing statistical tools and machine learning algorithms to identify trends and patterns.
           </li>
           <br />
           <li>
-            <strong>Robotics Project with Arduino:</strong> Led a team in the
-            creation of a robotics project leveraging Arduino technology,
-            showcasing my proficiency in hardware programming and automation.
+            <strong>Community Health Outreach Program:</strong>Took part in organizing a health education and screening program for underserved communities. Involved in planning logistics, conducting health assessments, and delivering educational workshop.
+
           </li>
         </ul>
       </div>
