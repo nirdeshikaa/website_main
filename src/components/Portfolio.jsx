@@ -4,12 +4,11 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="w-full h-full sm:h-screen bg-gradient-to-b from-green-600
-  to-black text-white"
+      className="w-full h-full sm:h-screen bg-gradient-to-b from-red-700 via-pink-600 to-pink-300"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
         <div className="pb-2 pt-32 ">
-          <p className="text-4xl font-bold inline border-b-4 border-black">
+          <p className="text-4xl font-bold inline border-b-4 text-black border-black">
             Portfolio
           </p>
         </div>
