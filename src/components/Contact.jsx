@@ -17,10 +17,10 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // You can perform form submission logic here, such as sending the data to your backend or API
+ 
     console.log(formData);
 
-    // Reset form fields after submission (optional)
+   
     setFormData({
       name: "",
       email: "",
@@ -31,14 +31,14 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-gradient-to-b from-red-700 via-pink-600 to-pink-300 p-4 text-black"
+      className="w-full h-full sm:h-screen bg-gradient-to-b from-red-700 via-pink-600 to-pink-300 p-4 text-black"
     >
-      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+      <div className="flex flex-col p-4 pt-32 justify-center max-w-screen-lg mx-auto h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-black">
             Contact
           </p>
-          <p className="py-4 text-white">Contact me using the form below:</p>
+       
         </div>
         <div className="flex justify-center items-center">
           <form
